@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="45481" started-at="2022-11-27T14:42:56Z" finished-at="2022-11-27T14:43:42Z">
+    <groups>
+    </groups>
+    <test name="Test" duration-ms="45481" started-at="2022-11-27T14:42:56Z" finished-at="2022-11-27T14:43:42Z">
+      <class name="com.automation.test.SelectTest">
+        <test-method status="PASS" signature="setup(org.testng.ITestContext, java.lang.String)[pri:0, instance:com.automation.test.SelectTest@6ff29830]" name="setup" is-config="true" duration-ms="23860" started-at="2022-11-27T14:42:56Z" finished-at="2022-11-27T14:43:20Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@71ae31b0]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="selectFromDropDown()[pri:0, instance:com.automation.test.SelectTest@6ff29830]" name="selectFromDropDown" duration-ms="20282" started-at="2022-11-27T14:43:20Z" finished-at="2022-11-27T14:43:41Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- selectFromDropDown -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.automation.test.SelectTest@6ff29830]" name="tearDown" is-config="true" duration-ms="1272" started-at="2022-11-27T14:43:41Z" finished-at="2022-11-27T14:43:42Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.automation.test.SelectTest -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
